@@ -3,12 +3,12 @@ This repository contains links to my submitted work for various graduate courses
 
 ## Scientific Field
 ### Seminars
-* [Software Engineering and Embedded Systems](https://github.com/Ohara124c41/Seminar_Papers/tree/master/Software%20Engineering%20and%20Embedded%20Systems)
+* [Software Engineering and Embedded Systems](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Seminars/Software%20Engineering%20and%20Embedded%20Systems)
 
 ### Embedded Systems
 
-### Autonomous Systems (Robotics/AI)
-
+### Autonomous Systems (Robotics & AI)
+* [Software Engineering and Embedded Systems](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Autonomous%20Systems/Hot%20Topics%20in%20Computer%20Vision)
 ### Mechatronics
 
 ### Machine Learning / Artificial Intelligence
