@@ -1,15 +1,19 @@
 # Graduate Technical Writing & Presentations
 This repository contains links to my submitted work for various graduate courses and seminars to act as a representation of my technical writing abilities.
 
-
-## Seminar Papers
+## Scientific Field
+### Seminars
 * [Software Engineering and Embedded Systems](https://github.com/Ohara124c41/Seminar_Papers/tree/master/Software%20Engineering%20and%20Embedded%20Systems)
 
-## Embedded Systems
+### Embedded Systems
 
-## Autonomous Systems (Robotics/AI)
+### Autonomous Systems (Robotics/AI)
 
-## Mechatronics
+### Mechatronics
 
-## Machine Learning / Artificial Intelligence
+### Machine Learning / Artificial Intelligence
+
+## Descriptions of Courses
+
+
 
