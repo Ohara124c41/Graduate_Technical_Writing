@@ -1,12 +1,16 @@
+  <head>
+    <!-- Place your kit's code here -->
+   <script src="https://kit.fontawesome.com/ff62c7b04b.js"></script>
+  </head>
+
+<body>
+
 # Graduate Technical Writing & Presentations
 This repository contains links to my submitted work for various graduate courses and seminars to act as a representation of my technical writing abilities.
 
 ## Scientific Field
 ### Embedded Systems <html>
-  <head>
-    <!-- Place your kit's code here -->
-   <script src="https://kit.fontawesome.com/ff62c7b04b.js"></script>
-  </head>
+
 <i class="fas fa-user-astronaut"></i>
 
 
@@ -32,6 +36,8 @@ This repository contains links to my submitted work for various graduate courses
 ### Human-Technology Interaction
 * [Advanced Cognitive Engineering](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Human%20Technology%20Interaction/Advanced%20Cognitive%20Engineering)
 * [Let's Make Humans Better!](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Human%20Technology%20Interaction/Let's%20Make%20Humans%20Better)
+
+</body>
 
 
 
