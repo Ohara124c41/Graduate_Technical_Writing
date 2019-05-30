@@ -1,7 +1,10 @@
-  <head>
-    <!-- Place your kit's code here -->
-   <script src="https://kit.fontawesome.com/ff62c7b04b.js"></script>
-  </head>
+<!doctype html>
+<html>
+ 
+<head>
+  <!-- Place your kit's code here -->
+  <script src="https://kit.fontawesome.com/ff62c7b04b.js"></script>
+</head>
 
 <body>
 
@@ -39,5 +42,6 @@ This repository contains links to my submitted work for various graduate courses
 
 </body>
 
+</html>
 
 
