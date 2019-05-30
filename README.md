@@ -4,7 +4,7 @@
 This repository contains links to my submitted work for various graduate courses and seminars to act as a representation of my technical writing abilities.
 
 ## Scientific Field
-### Embedded Systems ![image01](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Autonomous%20Systems/Hot%20Topics%20in%20Computer%20Vision/images/circuit_small.png?raw=true)
+### ![image01](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Autonomous%20Systems/Hot%20Topics%20in%20Computer%20Vision/images/circuit_small.png?raw=true) Embedded Systems ![image01](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Autonomous%20Systems/Hot%20Topics%20in%20Computer%20Vision/images/circuit_small.png?raw=true)
 
 
 
@@ -12,7 +12,7 @@ This repository contains links to my submitted work for various graduate courses
 * [System Validation](https://github.com/Ohara124c41/ASML-Wafer_Stepper)
 * [Software Engineering and Embedded Systems](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Seminars/Software%20Engineering%20and%20Embedded%20Systems)
 
-### Autonomous Systems (Robotics / AI / Machine Learning) ![image01](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Autonomous%20Systems/Hot%20Topics%20in%20Computer%20Vision/images/robot_small.png?raw=true)
+### ![image01](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Autonomous%20Systems/Hot%20Topics%20in%20Computer%20Vision/images/robot_small.png?raw=true) Autonomous Systems (Robotics / AI / Machine Learning) ![image01](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Autonomous%20Systems/Hot%20Topics%20in%20Computer%20Vision/images/robot_small.png?raw=true)
 * [Hot Topics in Computer Vision: B](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Autonomous%20Systems/Hot%20Topics%20in%20Computer%20Vision)
 * [Intelligent Architectures](https://github.com/Ohara124c41/Intelligent_Architectures-ViZDoom)
 * [DeepTraffic Capstone](https://github.com/Ohara124c41/MLND-Capstone-DeepTraffic)
@@ -20,18 +20,18 @@ This repository contains links to my submitted work for various graduate courses
 * [Kinematics: Kuka-KR210](https://github.com/Ohara124c41/RoboND-Kinematics-Kuka-KR210)
 
 
-### Mechatronics ![image01](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Autonomous%20Systems/Hot%20Topics%20in%20Computer%20Vision/images/sat_small.png?raw=true)
+### ![image01](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Autonomous%20Systems/Hot%20Topics%20in%20Computer%20Vision/images/sat_small.png?raw=true) Mechatronics ![image01](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Autonomous%20Systems/Hot%20Topics%20in%20Computer%20Vision/images/sat_small.png?raw=true)
 
 * [Advanced Microprocessor Systems](https://github.com/Ohara124c41/Hunter-UA-Drone)
 * [Bilateral Teleoperation Haptics](https://github.com/Ohara124c41/Haptics-Bilateral_Teleoperation-1DOF_Experiments)
 * [Control Systems](https://github.com/Ohara124c41/FlexSat)
 
 
-### Human-Technology Interaction ![image01](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Autonomous%20Systems/Hot%20Topics%20in%20Computer%20Vision/images/astro_small.png?raw=true)
+### ![image01](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Autonomous%20Systems/Hot%20Topics%20in%20Computer%20Vision/images/astro_small.png?raw=true) Human-Technology Interaction ![image01](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Autonomous%20Systems/Hot%20Topics%20in%20Computer%20Vision/images/astro_small.png?raw=true)
 * [Advanced Cognitive Engineering](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Human%20Technology%20Interaction/Advanced%20Cognitive%20Engineering)
 * [Let's Make Humans Better!](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Human%20Technology%20Interaction/Let's%20Make%20Humans%20Better)
 
-### Space Technology ![image01](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Autonomous%20Systems/Hot%20Topics%20in%20Computer%20Vision/images/shut_small.png?raw=true)
+### ![image01](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Autonomous%20Systems/Hot%20Topics%20in%20Computer%20Vision/images/shut_small.png?raw=true) Space Technology ![image01](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Autonomous%20Systems/Hot%20Topics%20in%20Computer%20Vision/images/shut_small.png?raw=true)
 
 *Work In Progress*
 
