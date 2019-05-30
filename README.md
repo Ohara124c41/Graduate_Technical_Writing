@@ -12,7 +12,7 @@
 This repository contains links to my submitted work for various graduate courses and seminars to act as a representation of my technical writing abilities.
 
 ## Scientific Field
-### Embedded Systems <html>
+### Embedded Systems 
 
 <i class="fas fa-user-astronaut"></i>
 
