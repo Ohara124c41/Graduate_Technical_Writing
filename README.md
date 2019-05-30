@@ -1,22 +1,11 @@
-<!DOCTYPE html>
-<html>
- 
-<head>
-  <!-- Place your kit's code here -->
-  <script src="https://kit.fontawesome.com/ff62c7b04b.js"></script>
-</head>
-
-<body>
-<span class="fas fa-camera"></span> <!-- using a <span> element to reference the icon -->
 
 
 # Graduate Technical Writing & Presentations
 This repository contains links to my submitted work for various graduate courses and seminars to act as a representation of my technical writing abilities.
 
 ## Scientific Field
-### Embedded Systems 
+### Embedded Systems ![alt text](https://cdn0.iconfinder.com/data/icons/octicons/1024/circuit-board-512.png)
 
-<i class="fas fa-user-astronaut"></i>
 
 
 * [Recent Advances in Computer Architecture](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Seminars/Recent%20Advances%20in%20Computer%20Architecture)
@@ -42,8 +31,5 @@ This repository contains links to my submitted work for various graduate courses
 * [Advanced Cognitive Engineering](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Human%20Technology%20Interaction/Advanced%20Cognitive%20Engineering)
 * [Let's Make Humans Better!](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Human%20Technology%20Interaction/Let's%20Make%20Humans%20Better)
 
-</body>
-
-</html>
 
 
