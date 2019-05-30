@@ -23,6 +23,7 @@ This repository contains links to my submitted work for various graduate courses
 
 ### Human-Technology Interaction
 * [Advanced Cognitive Engineering](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Human%20Technology%20Interaction/Advanced%20Cognitive%20Engineering)
+* [Let's Make Humans Better!](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Human%20Technology%20Interaction/Let's%20Make%20Humans%20Better)
 ### Udacity
 
 #### Robotics Nanodegree
