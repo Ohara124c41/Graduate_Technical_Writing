@@ -21,6 +21,8 @@ This repository contains links to my submitted work for various graduate courses
 ### Machine Learning / Artificial Intelligence
 * [Intelligent Architectures](https://github.com/Ohara124c41/Intelligent_Architectures-ViZDoom)
 
+### Human-Technology Interaction
+* [Advanced Cognitive Engineering](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Human%20Technology%20Interaction/Advanced%20Cognitive%20Engineering)
 ### Udacity
 
 #### Robotics Nanodegree
