@@ -7,6 +7,8 @@
 </head>
 
 <body>
+<span class="fas fa-camera"></span> <!-- using a <span> element to reference the icon -->
+
 
 # Graduate Technical Writing & Presentations
 This repository contains links to my submitted work for various graduate courses and seminars to act as a representation of my technical writing abilities.
