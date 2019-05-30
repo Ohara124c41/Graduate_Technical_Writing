@@ -2,7 +2,7 @@
 This repository contains links to my submitted work for various graduate courses and seminars to act as a representation of my technical writing abilities.
 
 ## Scientific Field
-### Embedded Systems
+### Embedded Systems <%= octicon "circuit-board" %>
 
 * [Recent Advances in Computer Architecture](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Seminars/Recent%20Advances%20in%20Computer%20Architecture)
 * [System Validation](https://github.com/Ohara124c41/ASML-Wafer_Stepper)
