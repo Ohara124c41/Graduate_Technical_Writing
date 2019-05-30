@@ -1,1 +1,8 @@
-temp
+![image01](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Seminars/Recent%20Advances%20in%20Computer%20Architecture/images/Ohara-RACA-Report-Final-1.jpg?raw=true)
+![image02](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Seminars/Recent%20Advances%20in%20Computer%20Architecture/images/Ohara-RACA-Report-Final-2.jpg?raw=true)
+![image03](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Seminars/Recent%20Advances%20in%20Computer%20Architecture/images/Ohara-RACA-Report-Final-3.jpg?raw=true)
+![image04](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Seminars/Recent%20Advances%20in%20Computer%20Architecture/images/Ohara-RACA-Report-Final-4.jpg?raw=true)
+![image05](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Seminars/Recent%20Advances%20in%20Computer%20Architecture/images/Ohara-RACA-Report-Final-5.jpg?raw=true)
+![image06](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Seminars/Recent%20Advances%20in%20Computer%20Architecture/images/Ohara-RACA-Report-Final-6.jpg?raw=true)
+![image07](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Seminars/Recent%20Advances%20in%20Computer%20Architecture/images/Ohara-RACA-Report-Final-7.jpg?raw=true)
+![image08](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Seminars/Recent%20Advances%20in%20Computer%20Architecture/images/Ohara-RACA-Report-Final-8.jpg?raw=true)
