@@ -5,9 +5,7 @@ This repository contains links to my submitted work for various graduate courses
 ### Embedded Systems
 
 * [Recent Advances in Computer Architecture](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Seminars/Recent%20Advances%20in%20Computer%20Architecture)
-
 * [System Validation](https://github.com/Ohara124c41/ASML-Wafer_Stepper)
-
 * [Software Engineering and Embedded Systems](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Seminars/Software%20Engineering%20and%20Embedded%20Systems)
 
 ### Autonomous Systems (Robotics / AI / Machine Learning)
