@@ -4,7 +4,7 @@
 This repository contains links to my submitted work for various graduate courses and seminars to act as a representation of my technical writing abilities.
 
 ## Scientific Field
-### Embedded Systems ![alt text](https://cdn0.iconfinder.com/data/icons/octicons/1024/circuit-board-512.png)
+### Embedded Systems ![alt text](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Autonomous%20Systems/Hot%20Topics%20in%20Computer%20Vision/images/iconfinder_rocket_298861.png?raw=true)
 
 
 
