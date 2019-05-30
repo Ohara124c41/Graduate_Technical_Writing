@@ -6,9 +6,8 @@ This repository contains links to my submitted work for various graduate courses
   <head>
     <!-- Place your kit's code here -->
    <script src="https://kit.fontawesome.com/ff62c7b04b.js"></script>
-    <i class="fas fa-user-astronaut"></i>
   </head>
-
+<i class="fas fa-user-astronaut"></i>
 
 
 * [Recent Advances in Computer Architecture](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Seminars/Recent%20Advances%20in%20Computer%20Architecture)
