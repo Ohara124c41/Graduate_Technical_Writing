@@ -36,7 +36,7 @@ This repository contains links to my submitted work for various graduate courses
 
 * [Projekt Raumfahrtsysteme II: DECAN](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Raumfahrttechnik/Projekt%20Raumfahrtsysteme%20II)
 
-### ![image01](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Autonomous%20Systems/Hot%20Topics%20in%20Computer%20Vision/images/iconfinder_m-47_4230514%20(1).png?raw=true) Product & Project Management (Innovation / Entrepreneurship) ![image01](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Autonomous%20Systems/Hot%20Topics%20in%20Computer%20Vision/images/iconfinder_m-47_4230514%20(1).png?raw=true)
+### ![image01](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Autonomous%20Systems/Hot%20Topics%20in%20Computer%20Vision/images/iconfinder_Business1_2316014.png?raw=true) Product & Project Management (Innovation / Entrepreneurship) ![image01](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Autonomous%20Systems/Hot%20Topics%20in%20Computer%20Vision/images/iconfinder_Business1_2316014.png?raw=true)
 
 * [Innovation Space: LABELEDBY](https://github.com/Ohara124c41/LABELEDBY.)
 * [Digital Marketing Portfolio: Udacity](https://github.com/Ohara124c41/DMND-Digital_Marketing/blob/master/Ohara-DMND-Portfolio.pdf)
