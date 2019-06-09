@@ -23,6 +23,7 @@ This repository contains links to my submitted work for various graduate courses
 ### ![image01](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Autonomous%20Systems/Hot%20Topics%20in%20Computer%20Vision/images/sat_small.png?raw=true) Mechatronics ![image01](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Autonomous%20Systems/Hot%20Topics%20in%20Computer%20Vision/images/sat_small.png?raw=true)
 
 * [Advanced Microprocessor Systems](https://github.com/Ohara124c41/Hunter-UA-Drone)
+* [Real-Time Control Systems](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Mechatronics/Real-Time%20Control%20Systems)
 * [Bilateral Teleoperation Haptics](https://github.com/Ohara124c41/Haptics-Bilateral_Teleoperation-1DOF_Experiments)
 * [Control Systems](https://github.com/Ohara124c41/FlexSat)
 
