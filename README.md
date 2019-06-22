@@ -11,6 +11,7 @@ This repository contains links to my submitted work for various graduate courses
 * [Recent Advances in Computer Architecture](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Seminars/Recent%20Advances%20in%20Computer%20Architecture)
 * [System Validation](https://github.com/Ohara124c41/ASML-Wafer_Stepper)
 * [Software Engineering and Embedded Systems](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Seminars/Software%20Engineering%20and%20Embedded%20Systems)
+* [Real-Time Systems](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Embedded%20Systems/Real-Time%20Systems)
 
 ### ![image01](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Autonomous%20Systems/Hot%20Topics%20in%20Computer%20Vision/images/robot_small.png?raw=true) Autonomous Systems (Robotics / AI / Machine Learning) ![image01](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Autonomous%20Systems/Hot%20Topics%20in%20Computer%20Vision/images/robot_small.png?raw=true)
 * [Hot Topics in Computer Vision: B](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Autonomous%20Systems/Hot%20Topics%20in%20Computer%20Vision)
