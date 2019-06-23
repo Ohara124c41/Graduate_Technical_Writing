@@ -40,4 +40,5 @@ This repository contains links to my submitted work for various graduate courses
 ### ![image01](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Autonomous%20Systems/Hot%20Topics%20in%20Computer%20Vision/images/iconfinder_Business1_2316014.png?raw=true) Product & Project Management (Innovation / Entrepreneurship) ![image01](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Autonomous%20Systems/Hot%20Topics%20in%20Computer%20Vision/images/iconfinder_Business1_2316014.png?raw=true)
 
 * [Innovation Space: LABELEDBY](https://github.com/Ohara124c41/LABELEDBY.)
+* [Predictive Analytics for Smart Cities](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Seminars/Predictive%20Analytics%20for%20Smart%20Cities)
 * [Digital Marketing Portfolio: Udacity](https://github.com/Ohara124c41/DMND-Digital_Marketing/blob/master/Ohara-DMND-Portfolio.pdf)
