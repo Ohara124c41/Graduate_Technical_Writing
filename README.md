@@ -35,6 +35,7 @@ This repository contains links to my submitted work for various graduate courses
 * [Automotive Human Factors](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Human%20Technology%20Interaction/Automotive%20Human%20Factors)
 * [Mensch-Maschine-System](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Human%20Technology%20Interaction/Mensch-Maschine-Systeme/presentation)
 * [Advanced Perception](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Human%20Technology%20Interaction/Advanced%20Perception)
+* [Roboethics: Robo-Arms](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Human%20Technology%20Interaction/Roboethics)
 ### ![image01](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Autonomous%20Systems/Hot%20Topics%20in%20Computer%20Vision/images/shut_small.png?raw=true) Space Technology ![image01](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Autonomous%20Systems/Hot%20Topics%20in%20Computer%20Vision/images/shut_small.png?raw=true)
 
 * [Projekt Raumfahrtsysteme II: DECAN](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Raumfahrttechnik/Projekt%20Raumfahrtsysteme%20II)
