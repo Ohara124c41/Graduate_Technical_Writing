@@ -33,7 +33,7 @@ This repository contains links to my submitted work for various graduate courses
 * [Advanced Cognitive Engineering](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Human%20Technology%20Interaction/Advanced%20Cognitive%20Engineering)
 * [Let's Make Humans Better: Enhancement, Technology & Transhumanism](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Human%20Technology%20Interaction/Let's%20Make%20Humans%20Better)
 * [Automotive Human Factors](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Human%20Technology%20Interaction/Automotive%20Human%20Factors)
-* [Mensch-Maschine-System](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Human%20Technology%20Interaction/Mensch-Maschine-Systeme/presentation)
+* [Mensch-Maschine-System](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Human%20Technology%20Interaction/Mensch-Maschine-Systeme/README.md)
 * [Advanced Perception](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Human%20Technology%20Interaction/Advanced%20Perception)
 * [BioDesign: Glowing Plants](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Human%20Technology%20Interaction/BioDesign)
 * [Roboethics: Robo-Arms](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Human%20Technology%20Interaction/Roboethics)
