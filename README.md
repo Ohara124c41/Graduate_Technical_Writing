@@ -29,6 +29,7 @@ This repository contains links to my submitted work for various graduate courses
 * [Real-Time Control Systems: Monolithic Piezoelectric Nanopositioning System](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Mechatronics/Real-Time%20Control%20Systems)
 * [Bilateral Teleoperation Haptics: Remote Surgery](https://github.com/Ohara124c41/Haptics-Bilateral_Teleoperation-1DOF_Experiments)
 * [Control Systems: FlexSat](https://github.com/Ohara124c41/FlexSat)
+* [Discrete Event Dynamic Systems](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Mechatronics/Discrete%20Event%20Dynamic%20Systems)
 
 
 ### ![image01](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Autonomous%20Systems/Hot%20Topics%20in%20Computer%20Vision/images/astro_small.png?raw=true) Human-Technology Interaction ![image01](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Autonomous%20Systems/Hot%20Topics%20in%20Computer%20Vision/images/astro_small.png?raw=true)
