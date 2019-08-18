@@ -1,0 +1,372 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <!--
+This HTML was auto-generated from MATLAB code.
+To make changes, update the MATLAB code and republish this document.
+      --><title>Schockkraftberechnung</title><meta name="generator" content="MATLAB 9.0"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2019-03-14"><meta name="DC.source" content="Schockkraftberechnung.m"><style type="text/css">
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outine:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
+
+html { min-height:100%; margin-bottom:1px; }
+html body { height:100%; margin:0px; font-family:Arial, Helvetica, sans-serif; font-size:10px; color:#000; line-height:140%; background:#fff none; overflow-y:scroll; }
+html body td { vertical-align:top; text-align:left; }
+
+h1 { padding:0px; margin:0px 0px 25px; font-family:Arial, Helvetica, sans-serif; font-size:1.5em; color:#d55000; line-height:100%; font-weight:normal; }
+h2 { padding:0px; margin:0px 0px 8px; font-family:Arial, Helvetica, sans-serif; font-size:1.2em; color:#000; font-weight:bold; line-height:140%; border-bottom:1px solid #d6d4d4; display:block; }
+h3 { padding:0px; margin:0px 0px 5px; font-family:Arial, Helvetica, sans-serif; font-size:1.1em; color:#000; font-weight:bold; line-height:140%; }
+
+a { color:#005fce; text-decoration:none; }
+a:hover { color:#005fce; text-decoration:underline; }
+a:visited { color:#004aa0; text-decoration:none; }
+
+p { padding:0px; margin:0px 0px 20px; }
+img { padding:0px; margin:0px 0px 20px; border:none; }
+p img, pre img, tt img, li img, h1 img, h2 img { margin-bottom:0px; } 
+
+ul { padding:0px; margin:0px 0px 20px 23px; list-style:square; }
+ul li { padding:0px; margin:0px 0px 7px 0px; }
+ul li ul { padding:5px 0px 0px; margin:0px 0px 7px 23px; }
+ul li ol li { list-style:decimal; }
+ol { padding:0px; margin:0px 0px 20px 0px; list-style:decimal; }
+ol li { padding:0px; margin:0px 0px 7px 23px; list-style-type:decimal; }
+ol li ol { padding:5px 0px 0px; margin:0px 0px 7px 0px; }
+ol li ol li { list-style-type:lower-alpha; }
+ol li ul { padding-top:7px; }
+ol li ul li { list-style:square; }
+
+.content { font-size:1.2em; line-height:140%; padding: 20px; }
+
+pre, code { font-size:12px; }
+tt { font-size: 1.2em; }
+pre { margin:0px 0px 20px; }
+pre.codeinput { padding:10px; border:1px solid #d3d3d3; background:#f7f7f7; }
+pre.codeoutput { padding:10px 11px; margin:0px 0px 20px; color:#4c4c4c; }
+pre.error { color:red; }
+
+@media print { pre.codeinput, pre.codeoutput { word-wrap:break-word; width:100%; } }
+
+span.keyword { color:#0000FF }
+span.comment { color:#228B22 }
+span.string { color:#A020F0 }
+span.untermstring { color:#B20000 }
+span.syscmd { color:#B28C00 }
+
+.footer { width:auto; padding:10px 0px; margin:25px 0px 0px; border-top:1px dotted #878787; font-size:0.8em; line-height:140%; font-style:italic; color:#878787; text-align:left; float:none; }
+.footer p { margin:0px; }
+.footer a { color:#878787; }
+.footer a:hover { color:#878787; text-decoration:underline; }
+.footer a:visited { color:#878787; }
+
+table th { padding:7px 5px; text-align:left; vertical-align:middle; border: 1px solid #d6d4d4; font-weight:bold; }
+table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px solid #d6d4d4; }
+
+
+
+
+
+  </style></head><body><div class="content"><h2>Contents</h2><div><ul><li><a href="#2">Color Order for plots</a></li><li><a href="#3">Berechnung Geschwindigkeiten</a></li><li><a href="#4">Unterschied des EIfnlusses vom "neuen" und "altem" cx  Wert</a></li></ul></div><pre class="codeinput">clear <span class="string">all</span>;close <span class="string">all</span>;clc
+
+<span class="comment">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
+<span class="comment">%%%% Raumfahrtsysteme                                     %%%%%%%%%%%%%%%%%</span>
+<span class="comment">%%%% Gruppe Mechanic                                      %%%%%%%%%%%%%%%%%</span>
+<span class="comment">%%%% 05.03.2019                                           %%%%%%%%%%%%%%%%%</span>
+<span class="comment">%%%% Maurer,D., Klioner, E., Berger,R., Block,N.          %%%%%%%%%%%%%%%%%</span>
+<span class="comment">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
+</pre><h2>Color Order for plots<a name="2"></a></h2><pre class="codeinput">ColLimit     = [0.6 0.6 0.6];    <span class="comment">% Grenzen, grey</span>
+ColOrder_new = [<span class="keyword">...</span>
+    0.3010    0.7450    0.9330   <span class="comment">% Zustand 1, light blue</span>
+    0         0.4470    0.7410   <span class="comment">% Zustand 2, blue</span>
+    0.4940    0.1840    0.5560   <span class="comment">% Zustand 3, violet</span>
+    0.6650    0.0780    0.1840   <span class="comment">% Zustand 4, dark red</span>
+    0.9500    0.3750    0.0980   <span class="comment">% Zustand 5, orange</span>
+    0.9290    0.6940    0.1250   <span class="comment">% Zustand 6, dark yellow</span>
+    0.4660    0.6740    0.1880   <span class="comment">% Zustand 7, light green</span>
+    0.2660    0.4740    0.3880]; <span class="comment">% Zustand 8, dark green</span>
+<span class="comment">% Change to new colors for all plots</span>
+set(gca, <span class="string">'ColorOrder'</span>, ColOrder_new, <span class="string">'NextPlot'</span>, <span class="string">'replacechildren'</span>);
+LineWidth = 1; <span class="comment">% linewidth for all plots</span>
+</pre><img vspace="5" hspace="5" src="Schockkraftberechnung_01.png" alt=""> <h2>Berechnung Geschwindigkeiten<a name="3"></a></h2><pre class="codeinput"><span class="comment">%Maximale last</span>
+maxLast = 20700; <span class="comment">% Aus dem Zugversuch in N</span>
+A = 34; <span class="comment">% Fl&auml;che des Fallschirms in m^2</span>
+roh = 1.225; <span class="comment">% Luftdichte auf Meeresh&ouml;he in kg/m^3</span>
+roh_v = [1.2247 1.202 1.179 1.156 1.134 1.111]; <span class="comment">% kg/m^3</span>
+cw = 1.8; <span class="comment">%cw-Wert des Fallschirms</span>
+cw_v = [1 1.2 1.4 1.6 1.8 2.0];<span class="comment">%cw-Wert</span>
+cx = 1.8;<span class="comment">% Schockkraftmultiplikator</span>
+cx_v = [1.5 1.6 1.7 1.8 1.9 2.0];
+
+
+figure(1)
+
+<span class="comment">% Variation des cw Wertes</span>
+subplot(2,2,1)
+<span class="keyword">for</span> j =1:6
+    <span class="keyword">for</span> i =1:1:50000
+        V(i) = i/1000;
+        F.V_A(j,i) = cw_v(j) * A * roh_v(1)/2 * V(i)^2*cx;
+    <span class="keyword">end</span>
+<span class="keyword">end</span>
+
+hold <span class="string">on</span>
+<span class="keyword">for</span> j=1:6
+set(1,<span class="string">'Name'</span>,<span class="string">'Bodenn&auml;he Dichte'</span>)
+hold <span class="string">on</span>
+h_plot(j) = plot(V,F.V_A(j,:),<span class="keyword">...</span>
+                 <span class="string">'Color'</span>, ColOrder_new(j+1,:),<span class="string">'MarkerSize'</span>, 8, <span class="keyword">...</span>
+                 <span class="string">'LineWidth'</span>, LineWidth);
+xlabel(<span class="string">'Geschwindigkeit [m/s]'</span>,<span class="string">'interpreter'</span>,<span class="string">'latex'</span>)
+ylabel(<span class="string">'Kraft [N]'</span>,<span class="string">'interpreter'</span>,<span class="string">'latex'</span>)
+ylim([0 40000])
+xlim([0 40])
+grid <span class="string">on</span>
+<span class="keyword">end</span>
+line([0 50] ,[maxLast maxLast],<span class="string">'Color'</span>,<span class="string">'r'</span>,<span class="string">'linewidth'</span>,1.5);
+legend([h_plot(1),h_plot(2),h_plot(3),h_plot(4),h_plot(5),h_plot(6)],[<span class="string">'cw = 1,0'</span>],<span class="keyword">...</span>
+    [<span class="string">'cw = 1,2'</span>],[<span class="string">'cw = 1,4'</span>],[<span class="string">'cx = 1,6'</span>],[<span class="string">'cx = 1,8'</span>],[<span class="string">'cx = 2'</span>],<span class="string">'location'</span>,<span class="string">'northwest'</span>);
+
+clear (<span class="string">'F.V_A'</span>)
+
+<span class="comment">% Variation der Dichte</span>
+subplot(2,2,2)
+<span class="keyword">for</span> j =1:6
+    <span class="keyword">for</span> i =1:1:50000
+        V(i) = i/1000;
+        F.V_A(j,i) = cw * A * roh_v(j)/2 * V(i)^2*cx;
+    <span class="keyword">end</span>
+<span class="keyword">end</span>
+
+hold <span class="string">on</span>
+
+<span class="keyword">for</span> j=1:6
+set(1,<span class="string">'Name'</span>,<span class="string">'Bodenn&auml;he Dichte'</span>)
+hold <span class="string">on</span>
+h_plot(j) = plot(V,F.V_A(j,:),<span class="keyword">...</span>
+    <span class="string">'Color'</span>, ColOrder_new(j+1,:),<span class="string">'MarkerSize'</span>, 8, <span class="keyword">...</span>
+<span class="string">'LineWidth'</span>, LineWidth);
+legend();
+xlabel(<span class="string">'Geschwindigkeit [m/s]'</span>,<span class="string">'interpreter'</span>,<span class="string">'latex'</span>)
+ylabel(<span class="string">'Kraft [N]'</span>,<span class="string">'interpreter'</span>,<span class="string">'latex'</span>)
+grid <span class="string">on</span>
+<span class="keyword">end</span>
+ylim([0 40000])
+xlim([0 40])
+line([0 50] ,[maxLast maxLast],<span class="string">'Color'</span>,<span class="string">'r'</span>,<span class="string">'linewidth'</span>,1.5);
+legend([h_plot(1),h_plot(2),h_plot(3),h_plot(4),h_plot(5),h_plot(6)],[<span class="string">'H&ouml;he = 0m'</span>],<span class="keyword">...</span>
+    [<span class="string">'H&ouml;he = 200m'</span>],[<span class="string">'H&ouml;he = 400m'</span>],[<span class="string">'H&ouml;he = 600m'</span>],[<span class="string">'H&ouml;he = 800m'</span>],[<span class="string">'H&ouml;he = 1000m'</span>],<span class="string">'location'</span>,<span class="string">'southeast'</span>);
+
+clear (<span class="string">'F.V_A'</span>)
+
+<span class="comment">% Variation des Schockfaktors</span>
+subplot(2,2,3)
+<span class="keyword">for</span> j =1:6
+    <span class="keyword">for</span> i =1:1:50000
+        V(i) = i/1000;
+        F.V_A(j,i) = cw * A * roh/2 * V(i)^2*cx_v(j);
+    <span class="keyword">end</span>
+<span class="keyword">end</span>
+hold <span class="string">on</span>
+<span class="keyword">for</span> j=1:6
+set(1,<span class="string">'Name'</span>,<span class="string">'Bodenn&auml;he Dichte'</span>)
+hold <span class="string">on</span>
+h_plot(j) = plot(V,F.V_A(j,:),<span class="keyword">...</span>
+    <span class="string">'Color'</span>, ColOrder_new(j+1,:),<span class="string">'MarkerSize'</span>, 8, <span class="keyword">...</span>
+<span class="string">'LineWidth'</span>, LineWidth);
+legend();
+xlabel(<span class="string">'Geschwindigkeit [m/s]'</span>,<span class="string">'interpreter'</span>,<span class="string">'latex'</span>)
+ylabel(<span class="string">'Kraft [N]'</span>,<span class="string">'interpreter'</span>,<span class="string">'latex'</span>)
+grid <span class="string">on</span>
+<span class="keyword">end</span>
+ylim([0 40000])
+xlim([0 40])
+line([0 50] ,[maxLast maxLast],<span class="string">'Color'</span>,<span class="string">'r'</span>,<span class="string">'linewidth'</span>,1.5);
+legend([h_plot(1),h_plot(2),h_plot(3),h_plot(4),h_plot(5),h_plot(6)],[<span class="string">'cx = 1,5'</span>],<span class="keyword">...</span>
+    [<span class="string">'cx = 1,6'</span>],[<span class="string">'cx = 1,7'</span>],[<span class="string">'cx = 1,8'</span>],[<span class="string">'cx = 1,9'</span>],[<span class="string">'cx = 2'</span>],<span class="string">'location'</span>,<span class="string">'northwest'</span>);
+
+clear (<span class="string">'F.V_A'</span>)
+</pre><img vspace="5" hspace="5" src="Schockkraftberechnung_02.png" alt=""> <h2>Unterschied des EIfnlusses vom "neuen" und "altem" cx  Wert<a name="4"></a></h2><pre class="codeinput">figure(2)
+
+cw = 1;
+cx_v = [1.6 1.8];
+<span class="keyword">for</span> j=1:2
+    <span class="keyword">for</span> i =1:1:50000
+    V(i) = i/1000;
+    F.V_A(j,i) = cw * A * roh/2 * V(i)^2*cx_v(j);
+    <span class="keyword">end</span>
+<span class="keyword">end</span>
+
+<span class="keyword">for</span> j=1:2
+set(1,<span class="string">'Name'</span>,<span class="string">'Bodenn&auml;he Dichte'</span>)
+hold <span class="string">on</span>
+h_plot(j) = plot(V,F.V_A(j,:),<span class="keyword">...</span>
+    <span class="string">'Color'</span>, ColOrder_new(j*4,:),<span class="string">'MarkerSize'</span>, 8, <span class="keyword">...</span>
+<span class="string">'LineWidth'</span>, LineWidth);
+legend();
+xlabel(<span class="string">'Geschwindigkeit [m/s]'</span>,<span class="string">'interpreter'</span>,<span class="string">'latex'</span>)
+ylabel(<span class="string">'Kraft [N]'</span>,<span class="string">'interpreter'</span>,<span class="string">'latex'</span>)
+ylim([0 40000])
+xlim([0 40])
+grid <span class="string">on</span>
+<span class="keyword">end</span>
+<span class="comment">%line([0 50] ,[maxLast maxLast],'Color','r','linewidth',1.5);</span>
+legend([h_plot(1),h_plot(2)],[<span class="string">'cx = 1,6 -&gt; alte Berechnungsgrundlage'</span>],<span class="keyword">...</span>
+        [<span class="string">'cx = 1,8 -&gt; neue Berechnungsgrundlage'</span>],<span class="string">'location'</span>,<span class="string">'northwest'</span>);
+print <span class="string">-dpng</span> <span class="string">Schockkraft_alt_neu.png</span> <span class="string">-r500</span>
+</pre><img vspace="5" hspace="5" src="Schockkraftberechnung_03.png" alt=""> <p class="footer"><br><a href="http://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2016a</a><br></p></div><!--
+##### SOURCE BEGIN #####
+clear all;close all;clc
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% Raumfahrtsysteme                                     %%%%%%%%%%%%%%%%%
+%%%% Gruppe Mechanic                                      %%%%%%%%%%%%%%%%%
+%%%% 05.03.2019                                           %%%%%%%%%%%%%%%%%
+%%%% Maurer,D., Klioner, E., Berger,R., Block,N.          %%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%% Color Order for plots
+ColLimit     = [0.6 0.6 0.6];    % Grenzen, grey
+ColOrder_new = [...
+    0.3010    0.7450    0.9330   % Zustand 1, light blue
+    0         0.4470    0.7410   % Zustand 2, blue
+    0.4940    0.1840    0.5560   % Zustand 3, violet
+    0.6650    0.0780    0.1840   % Zustand 4, dark red
+    0.9500    0.3750    0.0980   % Zustand 5, orange
+    0.9290    0.6940    0.1250   % Zustand 6, dark yellow
+    0.4660    0.6740    0.1880   % Zustand 7, light green
+    0.2660    0.4740    0.3880]; % Zustand 8, dark green
+% Change to new colors for all plots
+set(gca, 'ColorOrder', ColOrder_new, 'NextPlot', 'replacechildren');
+LineWidth = 1; % linewidth for all plots
+
+%% Berechnung Geschwindigkeiten 
+%Maximale last
+maxLast = 20700; % Aus dem Zugversuch in N
+A = 34; % Fläche des Fallschirms in m^2
+roh = 1.225; % Luftdichte auf Meereshöhe in kg/m^3
+roh_v = [1.2247 1.202 1.179 1.156 1.134 1.111]; % kg/m^3
+cw = 1.8; %cw-Wert des Fallschirms
+cw_v = [1 1.2 1.4 1.6 1.8 2.0];%cw-Wert
+cx = 1.8;% Schockkraftmultiplikator
+cx_v = [1.5 1.6 1.7 1.8 1.9 2.0];
+
+
+figure(1)
+
+% Variation des cw Wertes
+subplot(2,2,1)
+for j =1:6 
+    for i =1:1:50000
+        V(i) = i/1000;
+        F.V_A(j,i) = cw_v(j) * A * roh_v(1)/2 * V(i)^2*cx;
+    end
+end
+
+hold on
+for j=1:6
+set(1,'Name','Bodennähe Dichte')
+hold on
+h_plot(j) = plot(V,F.V_A(j,:),...
+                 'Color', ColOrder_new(j+1,:),'MarkerSize', 8, ...
+                 'LineWidth', LineWidth);
+xlabel('Geschwindigkeit [m/s]','interpreter','latex')
+ylabel('Kraft [N]','interpreter','latex')
+ylim([0 40000])
+xlim([0 40])
+grid on
+end
+line([0 50] ,[maxLast maxLast],'Color','r','linewidth',1.5);
+legend([h_plot(1),h_plot(2),h_plot(3),h_plot(4),h_plot(5),h_plot(6)],['cw = 1,0'],...
+    ['cw = 1,2'],['cw = 1,4'],['cx = 1,6'],['cx = 1,8'],['cx = 2'],'location','northwest');
+
+clear ('F.V_A')
+
+% Variation der Dichte
+subplot(2,2,2)
+for j =1:6 
+    for i =1:1:50000
+        V(i) = i/1000;
+        F.V_A(j,i) = cw * A * roh_v(j)/2 * V(i)^2*cx;
+    end
+end
+
+hold on
+
+for j=1:6
+set(1,'Name','Bodennähe Dichte')
+hold on
+h_plot(j) = plot(V,F.V_A(j,:),...
+    'Color', ColOrder_new(j+1,:),'MarkerSize', 8, ...
+'LineWidth', LineWidth);
+legend();
+xlabel('Geschwindigkeit [m/s]','interpreter','latex')
+ylabel('Kraft [N]','interpreter','latex')
+grid on
+end
+ylim([0 40000])
+xlim([0 40])
+line([0 50] ,[maxLast maxLast],'Color','r','linewidth',1.5);
+legend([h_plot(1),h_plot(2),h_plot(3),h_plot(4),h_plot(5),h_plot(6)],['Höhe = 0m'],...
+    ['Höhe = 200m'],['Höhe = 400m'],['Höhe = 600m'],['Höhe = 800m'],['Höhe = 1000m'],'location','southeast');
+
+clear ('F.V_A')
+
+% Variation des Schockfaktors
+subplot(2,2,3)
+for j =1:6 
+    for i =1:1:50000
+        V(i) = i/1000;
+        F.V_A(j,i) = cw * A * roh/2 * V(i)^2*cx_v(j);
+    end
+end
+hold on
+for j=1:6
+set(1,'Name','Bodennähe Dichte')
+hold on
+h_plot(j) = plot(V,F.V_A(j,:),...
+    'Color', ColOrder_new(j+1,:),'MarkerSize', 8, ...
+'LineWidth', LineWidth);
+legend();
+xlabel('Geschwindigkeit [m/s]','interpreter','latex')
+ylabel('Kraft [N]','interpreter','latex')
+grid on
+end
+ylim([0 40000])
+xlim([0 40])
+line([0 50] ,[maxLast maxLast],'Color','r','linewidth',1.5);
+legend([h_plot(1),h_plot(2),h_plot(3),h_plot(4),h_plot(5),h_plot(6)],['cx = 1,5'],...
+    ['cx = 1,6'],['cx = 1,7'],['cx = 1,8'],['cx = 1,9'],['cx = 2'],'location','northwest');
+
+clear ('F.V_A')
+%% Unterschied des EIfnlusses vom "neuen" und "altem" cx  Wert
+figure(2)
+
+cw = 1;
+cx_v = [1.6 1.8];
+for j=1:2
+    for i =1:1:50000
+    V(i) = i/1000;
+    F.V_A(j,i) = cw * A * roh/2 * V(i)^2*cx_v(j);
+    end
+end
+
+for j=1:2
+set(1,'Name','Bodennähe Dichte')
+hold on
+h_plot(j) = plot(V,F.V_A(j,:),...
+    'Color', ColOrder_new(j*4,:),'MarkerSize', 8, ...
+'LineWidth', LineWidth);
+legend();
+xlabel('Geschwindigkeit [m/s]','interpreter','latex')
+ylabel('Kraft [N]','interpreter','latex')
+ylim([0 40000])
+xlim([0 40])
+grid on
+end
+%line([0 50] ,[maxLast maxLast],'Color','r','linewidth',1.5);
+legend([h_plot(1),h_plot(2)],['cx = 1,6 -> alte Berechnungsgrundlage'],...
+        ['cx = 1,8 -> neue Berechnungsgrundlage'],'location','northwest');
+print -dpng Schockkraft_alt_neu.png -r500 
+##### SOURCE END #####
+--></body></html>
