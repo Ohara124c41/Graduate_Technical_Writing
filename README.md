@@ -44,6 +44,7 @@ This repository contains links to my submitted work for various graduate courses
 
 * [Projekt Raumfahrtsysteme II: DECAN](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Raumfahrttechnik/Projekt%20Raumfahrtsysteme%20II)
 * CanSat: Hands-On Satellite Design [[Paper](https://github.com/Ohara124c41/CanSat)] [[Presentation](https://github.com/Ohara124c41/CanSat/tree/master/presentation/presentation)]
+* [Planetary Exploration & Space Robotics](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Raumfahrttechnik/Planetare%20Exploration%20und%20Weltraumrobotik)
 
 ### ![image01](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Autonomous%20Systems/Hot%20Topics%20in%20Computer%20Vision/images/iconfinder_Business1_2316014.png?raw=true) Product & Project Management (Innovation / Entrepreneurship) ![image01](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Autonomous%20Systems/Hot%20Topics%20in%20Computer%20Vision/images/iconfinder_Business1_2316014.png?raw=true)
 
