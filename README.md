@@ -1,7 +1,7 @@
 
 
 # Graduate Technical Writing & Presentations
-This repository contains links to my submitted work for various graduate courses and seminars to act as a representation of my technical writing abilities.
+This repository contains links to my submitted work for various graduate courses and seminars to act as a representation of my technical writing abilities. I was the primary (or sole) speaker for each presentation.
 
 ## Scientific Field
 ### ![image01](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Autonomous%20Systems/Hot%20Topics%20in%20Computer%20Vision/images/circuit_small.png?raw=true) Embedded Systems ![image01](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Autonomous%20Systems/Hot%20Topics%20in%20Computer%20Vision/images/circuit_small.png?raw=true)
@@ -26,7 +26,7 @@ This repository contains links to my submitted work for various graduate courses
 ### ![image01](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Autonomous%20Systems/Hot%20Topics%20in%20Computer%20Vision/images/sat_small.png?raw=true) Mechatronics ![image01](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Autonomous%20Systems/Hot%20Topics%20in%20Computer%20Vision/images/sat_small.png?raw=true)
 
 * [Advanced Microprocessor Systems: Hunter Drone](https://github.com/Ohara124c41/Hunter-UA-Drone)
-* [Real-Time Control Systems: Monolithic Piezoelectric Nanopositioning System](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Mechatronics/Real-Time%20Control%20Systems)
+* Real-Time Control Systems: Monolithic Piezoelectric Nanopositioning System - [[Report](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Mechatronics/Real-Time%20Control%20Systems)] [[Presentation](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Mechatronics/Real-Time%20Control%20Systems/presentation/README.md)]
 * [Bilateral Teleoperation Haptics: Remote Surgery](https://github.com/Ohara124c41/Haptics-Bilateral_Teleoperation-1DOF_Experiments)
 * [Control Systems: FlexSat](https://github.com/Ohara124c41/FlexSat)
 * [Discrete Event Dynamic Systems](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Mechatronics/Discrete%20Event%20Dynamic%20Systems)
@@ -39,11 +39,11 @@ This repository contains links to my submitted work for various graduate courses
 * [Mensch-Maschine-System](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Human%20Technology%20Interaction/Mensch-Maschine-Systeme/README.md)
 * [Advanced Perception](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Human%20Technology%20Interaction/Advanced%20Perception)
 * [BioDesign: Glowing Plants](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Human%20Technology%20Interaction/BioDesign)
-* Robo-Ethics: Robo-Arms -  [[Paper](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Human%20Technology%20Interaction/Roboethics)] [[Presentation]](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Human%20Technology%20Interaction/Roboethics/presentation/README.md)] [[Poster](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Human%20Technology%20Interaction/Roboethics/poster/README.md)]
+* Robo-Ethics: Robo-Arms -  [[Report](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Human%20Technology%20Interaction/Roboethics)] [[Presentation]](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Human%20Technology%20Interaction/Roboethics/presentation/README.md)] [[Poster](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Human%20Technology%20Interaction/Roboethics/poster/README.md)]
 ### ![image01](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Autonomous%20Systems/Hot%20Topics%20in%20Computer%20Vision/images/shut_small.png?raw=true) Space Technology ![image01](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Autonomous%20Systems/Hot%20Topics%20in%20Computer%20Vision/images/shut_small.png?raw=true)
 
 * [Projekt Raumfahrtsysteme II: DECAN](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Raumfahrttechnik/Projekt%20Raumfahrtsysteme%20II)
-* CanSat: Hands-On Satellite Design - [[Paper](https://github.com/Ohara124c41/CanSat)] [[Presentation](https://github.com/Ohara124c41/CanSat/tree/master/presentation/presentation)]
+* CanSat: Hands-On Satellite Design - [[Report](https://github.com/Ohara124c41/CanSat)] [[Presentation](https://github.com/Ohara124c41/CanSat/tree/master/presentation/presentation)]
 * [Planetary Exploration & Space Robotics](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Raumfahrttechnik/Planetare%20Exploration%20und%20Weltraumrobotik)
 
 ### ![image01](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Autonomous%20Systems/Hot%20Topics%20in%20Computer%20Vision/images/iconfinder_Business1_2316014.png?raw=true) Product & Project Management (Innovation / Entrepreneurship) ![image01](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Autonomous%20Systems/Hot%20Topics%20in%20Computer%20Vision/images/iconfinder_Business1_2316014.png?raw=true)
