@@ -38,7 +38,7 @@ This repository contains links to my submitted work for various graduate courses
 * [Automotive Human Factors](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Human%20Technology%20Interaction/Automotive%20Human%20Factors)
 * [Mensch-Maschine-System](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Human%20Technology%20Interaction/Mensch-Maschine-Systeme/README.md)
 * [Advanced Perception](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Human%20Technology%20Interaction/Advanced%20Perception)
-* BioDesign: Glowing Plants -[[Poster](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Human%20Technology%20Interaction/BioDesign)] - [[Workspace](http://www.top-ev.de/biolab/interactive-living-systems/] - [[Video](https://youtu.be/RFyJNBB_jCk)]
+* BioDesign: Glowing Plants -[[Poster](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Human%20Technology%20Interaction/BioDesign)] - [[Workspace](http://www.top-ev.de/biolab/interactive-living-systems/)] - [[Video](https://youtu.be/RFyJNBB_jCk)]
 * Robo-Ethics: Robo-Arms -  [[Report](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Human%20Technology%20Interaction/Roboethics)] [[Presentation](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Human%20Technology%20Interaction/Roboethics/presentation/README.md)] [[Poster](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Human%20Technology%20Interaction/Roboethics/poster/README.md)]
 * I, Robot? (Artificial) Selfhood and Consciousness - [[Presentation](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Human%20Technology%20Interaction/I%2C%20Robot/README.md)]
 
