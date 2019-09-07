@@ -38,14 +38,14 @@ This repository contains links to my submitted work for various graduate courses
 * [Automotive Human Factors](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Human%20Technology%20Interaction/Automotive%20Human%20Factors)
 * [Mensch-Maschine-System](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Human%20Technology%20Interaction/Mensch-Maschine-Systeme/README.md)
 * [Advanced Perception](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Human%20Technology%20Interaction/Advanced%20Perception)
-* [BioDesign: Glowing Plants](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Human%20Technology%20Interaction/BioDesign)
+* BioDesign: Glowing Plants -[[Poster](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Human%20Technology%20Interaction/BioDesign)] - [[Workspace](http://www.top-ev.de/biolab/interactive-living-systems/] - [[Video](https://youtu.be/RFyJNBB_jCk)]
 * Robo-Ethics: Robo-Arms -  [[Report](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Human%20Technology%20Interaction/Roboethics)] [[Presentation](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Human%20Technology%20Interaction/Roboethics/presentation/README.md)] [[Poster](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Human%20Technology%20Interaction/Roboethics/poster/README.md)]
 * I, Robot? (Artificial) Selfhood and Consciousness - [[Presentation](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Human%20Technology%20Interaction/I%2C%20Robot/README.md)]
 
 ### ![image01](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Autonomous%20Systems/Hot%20Topics%20in%20Computer%20Vision/images/shut_small.png?raw=true) Space Technology ![image01](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Autonomous%20Systems/Hot%20Topics%20in%20Computer%20Vision/images/shut_small.png?raw=true)
 
 * [Projekt Raumfahrtsysteme II: DECAN](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Raumfahrttechnik/Projekt%20Raumfahrtsysteme%20II)
-* CanSat: Hands-On Satellite Design - [[Report](https://github.com/Ohara124c41/CanSat)] [[Presentation](https://github.com/Ohara124c41/CanSat/tree/master/presentation/presentation)]
+* CanSat: Hands-On Satellite Design - [[Report](https://github.com/Ohara124c41/CanSat)] [[Presentation](https://github.com/Ohara124c41/CanSat/tree/master/presentation/presentation)] [[Video](https://youtu.be/NSftkYYcULI)] [[Presentation Video](https://youtu.be/Fx8m9ZTgjfs)] 
 * [Planetary Exploration & Space Robotics](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Raumfahrttechnik/Planetare%20Exploration%20und%20Weltraumrobotik)
 
 ### ![image01](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Autonomous%20Systems/Hot%20Topics%20in%20Computer%20Vision/images/iconfinder_Business1_2316014.png?raw=true) Product & Project Management (Innovation / Entrepreneurship) ![image01](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Autonomous%20Systems/Hot%20Topics%20in%20Computer%20Vision/images/iconfinder_Business1_2316014.png?raw=true)
