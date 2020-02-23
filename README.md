@@ -55,3 +55,5 @@ This repository contains links to my submitted work for various graduate courses
 * [Innovation & Entrepreneurship Minor Thesis: SmartFC](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Seminars/Innovation%20and%20Entrepreneurship%20Minor%20Thesis)
 * [Predictive Analytics for Smart Cities: ExPro](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Seminars/Predictive%20Analytics%20for%20Smart%20Cities)
 * [Digital Marketing Portfolio: Udacity](https://github.com/Ohara124c41/DMND-Digital_Marketing/blob/master/Ohara-DMND-Portfolio.pdf)
+* [AI for Product Managers: AI for Space Proposal](https://github.com/Ohara124c41/AIPMND-AI_Product_Manager/tree/master/P3-Capstone_Proposal-AI_for_Space)
+* [Project Management: Autonomous Delivery タチコマ (DoorDash)](https://github.com/Ohara124c41/PMND-Project_Management_Nanodegree/blob/master/C2-Design_Sprint/Ohara-PMND-C2-Final_Slides.pdf)
