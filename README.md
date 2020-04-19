@@ -7,7 +7,7 @@ This repository contains links to my submitted work for various graduate courses
 ### ![image01](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Autonomous%20Systems/Hot%20Topics%20in%20Computer%20Vision/images/circuit_small.png?raw=true) Embedded Systems ![image01](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Autonomous%20Systems/Hot%20Topics%20in%20Computer%20Vision/images/circuit_small.png?raw=true)
 
 
-* CERN: Conditions Database for SHiP - [[Report](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Doctoral%20Projects/CERN/report)]; [[Presentation](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Doctoral%20Projects/CERN/presentation)]
+* Integration and Performance Analysis of the SHiP Conditions Database (CERN) - [[Report](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Doctoral%20Projects/CERN/report)]; [[Presentation](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Doctoral%20Projects/CERN/presentation)]
 * [Recent Advances in Computer Architecture](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Seminars/Recent%20Advances%20in%20Computer%20Architecture)
 * [System Validation](https://github.com/Ohara124c41/ASML-Wafer_Stepper)
 * [Software Engineering and Embedded Systems](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Seminars/Software%20Engineering%20and%20Embedded%20Systems)
@@ -16,6 +16,8 @@ This repository contains links to my submitted work for various graduate courses
 * [Cloud Computing](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Embedded%20Systems/Cloud%20Computing)
 
 ### ![image01](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Autonomous%20Systems/Hot%20Topics%20in%20Computer%20Vision/images/robot_small.png?raw=true) Autonomous Systems (Robotics / AI / Machine Learning) ![image01](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Autonomous%20Systems/Hot%20Topics%20in%20Computer%20Vision/images/robot_small.png?raw=true)
+
+* Optimizing Agent Behavior and Minimizing User Cognitive Load for Mixed Human-Robot Teams (German Special Forces; Spezialeinsatzkommandos) - [[MSc Thesis](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/MSc%20Thesis/Ohara-TUB-MSc_Thesis-Final)]
 * Reinforcement Learning in Autonomous Security - [[Presentation](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Autonomous%20Systems/Autonomous%20Security/presentation/README.md)]; [[Paper](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Autonomous%20Systems/Autonomous%20Security/paper/README.md)]
 * [Hot Topics in Computer Vision: B (Hella Aglaia: Self-Parking Vehicle - SAElv3)](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Autonomous%20Systems/Hot%20Topics%20in%20Computer%20Vision)
 * [Intelligent Architectures: Biologically Inspired Reinforcement Learning Capstone](https://github.com/Ohara124c41/Intelligent_Architectures-ViZDoom)
