@@ -7,7 +7,7 @@ This repository contains links to my submitted work for various graduate courses
 ### ![image01](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Autonomous%20Systems/Hot%20Topics%20in%20Computer%20Vision/images/circuit_small.png?raw=true) Embedded Systems ![image01](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Autonomous%20Systems/Hot%20Topics%20in%20Computer%20Vision/images/circuit_small.png?raw=true)
 
 
-* CERN: Conditions Database for SHiP - [[Report](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Doctoral%20Projects/CERN/report)]
+* CERN: Conditions Database for SHiP - [[Report](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Doctoral%20Projects/CERN/report)]; [[Presentation](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Doctoral%20Projects/CERN/presentation)]
 * [Recent Advances in Computer Architecture](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Seminars/Recent%20Advances%20in%20Computer%20Architecture)
 * [System Validation](https://github.com/Ohara124c41/ASML-Wafer_Stepper)
 * [Software Engineering and Embedded Systems](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Seminars/Software%20Engineering%20and%20Embedded%20Systems)
