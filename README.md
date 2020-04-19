@@ -17,7 +17,7 @@ This repository contains links to my submitted work for various graduate courses
 
 ### ![image01](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Autonomous%20Systems/Hot%20Topics%20in%20Computer%20Vision/images/robot_small.png?raw=true) Autonomous Systems (Robotics / AI / Machine Learning) ![image01](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Autonomous%20Systems/Hot%20Topics%20in%20Computer%20Vision/images/robot_small.png?raw=true)
 
-* Optimizing Agent Behavior and Minimizing User Cognitive Load for Mixed Human-Robot Teams (German Special Forces; Spezialeinsatzkommandos) - [[MSc Thesis](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/MSc%20Thesis/Ohara-TUB-MSc_Thesis-Final)]
+* Optimizing Agent Behavior and Minimizing User Cognitive Load for Mixed Human-Robot Teams (German Special Forces; Spezialeinsatzkommandos) - [[MSc Thesis](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/MSc%20Thesis)]
 * Reinforcement Learning in Autonomous Security - [[Presentation](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Autonomous%20Systems/Autonomous%20Security/presentation/README.md)]; [[Paper](https://github.com/Ohara124c41/Graduate_Technical_Writing/blob/master/Autonomous%20Systems/Autonomous%20Security/paper/README.md)]
 * [Hot Topics in Computer Vision: B (Hella Aglaia: Self-Parking Vehicle - SAElv3)](https://github.com/Ohara124c41/Graduate_Technical_Writing/tree/master/Autonomous%20Systems/Hot%20Topics%20in%20Computer%20Vision)
 * [Intelligent Architectures: Biologically Inspired Reinforcement Learning Capstone](https://github.com/Ohara124c41/Intelligent_Architectures-ViZDoom)
