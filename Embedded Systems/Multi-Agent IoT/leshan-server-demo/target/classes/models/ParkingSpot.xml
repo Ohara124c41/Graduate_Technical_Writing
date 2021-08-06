@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<LWM2M  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://openmobilealliance.org/tech/profiles/LWM2M.xsd">
+    <Object ObjectType="MODefinition">
+        <Name>Parking Spot</Name>
+        <Description1>Parking Spot</Description1>
+        <ObjectID>32700</ObjectID>
+        <ObjectURN>urn:oma:lwm2m:x:32700</ObjectURN>
+        <LWM2MVersion>1.0</LWM2MVersion>
+        <ObjectVersion>1.0</ObjectVersion>        
+        <MultipleInstances>Multiple</MultipleInstances>
+        <Mandatory>Optional</Mandatory>
+        <Resources>
+            <Item ID="0">
+                <Name>Parking Spot ID</Name>
+                <Operations>RW</Operations>
+                <MultipleInstances>Single</MultipleInstances>
+                <Mandatory>Mandatory</Mandatory>
+                <Type>String</Type>
+                <RangeEnumeration></RangeEnumeration>
+                <Units></Units>
+                <Description>Parking Spot Name</Description>
+            </Item>
+            <Item ID="1">
+                <Name>Parking Spot State</Name>
+                <Operations>RW</Operations>
+                <MultipleInstances>Single</MultipleInstances>
+                <Mandatory>Mandatory</Mandatory>
+                <Type>String</Type>
+                <RangeEnumeration>free|reserved|occupied</RangeEnumeration>
+                <Units></Units>
+                <Description>State of parking spot</Description>
+            </Item>
+            <Item ID="2">
+                <Name>Vehicle ID</Name>
+                <Operations>RW</Operations>
+                <MultipleInstances>Single</MultipleInstances>
+                <Mandatory>Optional</Mandatory>
+                <Type>String</Type>
+                <RangeEnumeration></RangeEnumeration>
+                <Units></Units>
+                <Description>License plate of vehicle on parking spot.</Description>
+            </Item>
+            <Item ID="3">
+                <Name>Billing rate</Name>
+                <Operations>RW</Operations>
+                <MultipleInstances>Single</MultipleInstances>
+                <Mandatory>Optional</Mandatory>
+                <Type>Float</Type>
+                <RangeEnumeration></RangeEnumeration>
+                <Units></Units>
+                <Description>Billing rate for parking spot.</Description>
+            </Item>
+        </Resources>
+        <Description2>Description2</Description2>
+    </Object>
+</LWM2M>
